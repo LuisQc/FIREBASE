@@ -1,0 +1,35 @@
+.productCard__itemCount {
+    align-self: flex-end;
+}
+
+.productCard__itemCount .productCard__itemCount__bar {
+    display: flex;
+}
+
+.productCard__itemCount button {
+    font-weight: bold;
+    background-color: var(--poppy__color);
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.productCard__itemCount input {
+    border: none;
+    height: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.productCard__itemCount .squareButton {
+    background-color: var(--poppy__color);
+    padding: .5rem;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+}
+
+.productCard__itemCount .addButton {
+    width: 100%;
+    margin: .5rem 0 0 0;
+}

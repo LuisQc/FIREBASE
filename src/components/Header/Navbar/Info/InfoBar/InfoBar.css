@@ -1,0 +1,21 @@
+nav ul li {
+    padding: 0 1rem;
+}
+
+header a:hover {
+    color: var(--poppy__color);
+}
+
+.info__container ul {
+    display: flex;
+}
+
+.info__container ul li {
+    padding: .5rem; 
+}
+
+@media screen and (min-width: 1200px) {
+    .info__container ul li {
+        padding: 0 0 0 1rem;
+    }
+}

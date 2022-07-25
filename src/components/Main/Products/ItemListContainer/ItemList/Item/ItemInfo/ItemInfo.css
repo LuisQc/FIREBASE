@@ -1,0 +1,29 @@
+.productCard__title {
+    color: var(--poppy__color);
+    font-size: 1.25rem;
+    padding: .5rem 0 0 0;
+}
+
+.productCard__category {
+    color: var(--poppy__color);
+    font-size: .75rem;
+    padding: 0 0 .5rem 0;
+}
+
+.productCard__description {
+    color: var(--cultured__color);
+}
+
+.productCard__price {
+    color: var(--poppy__color);
+    text-align: right;
+    padding: .5rem 0;
+}
+
+.productCard__button {
+    font-weight: bold;
+    background-color: var(--poppy__color);
+    padding: .5rem 2rem;
+    border: none;
+    cursor: pointer;
+}
